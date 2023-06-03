@@ -1,0 +1,106 @@
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navigation {
+  display: block;
+}
+
+.logo {
+  padding: 5px;
+  text-align: center;
+}
+
+nav {
+  width: 73%;
+  padding: 1%;
+  float: left;
+}
+
+li {
+  padding: 25px;
+}
+
+.heroImg {
+  text-align: center;
+  padding: 25px;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.content img {
+  height: 400px;
+  text-align: center;
+}
+
+.content button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 19px 13px;
+  border-radius: 20px;
+}
+
+.mySkills {
+  text-align: center;
+}
+
+.flexContainer {
+  display: flex;
+  text-align: center;
+}
+
+.flexContainer div {
+  width: 32%;
+  margin: auto;
+}
+
+.myWork {
+  text-align: center;
+}
+
+.workGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+}
+
+.workGrid div {
+  text-align: center;
+}
+
+.workGrid div button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 19px 13px;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+
+  .flexContainer div {
+    width: 100%;
+  }
+
+  .workGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+footer {
+  background-color: #373738;
+  padding: auto;
+}
+
+footer ul {
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+}

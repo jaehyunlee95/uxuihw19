@@ -3,28 +3,29 @@
   <head>
     <title></title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="http://code.jquery.com/jquery.min.js"></script>
   </head>
 
   <body>
     <header class="navigation">
       <nav class="inline-block">
         <ul>
-          <li class="inline-block">About</li>
-          <li class="inline-block">Skills</li>
-          <li class="inline-block">Work</li>
-          <li class="inline-block">Contact</li>
+          <li id="about" class="inline-block">About</li>
+          <li id="skills" class="inline-block">Skills</li>
+          <li id="work" class="inline-block">Work</li>
+          <li id="contact" class="inline-block">LinkedIn</li>
         </ul>
       </nav>
       <div class="logo">
         <div class="inline-block">
-          <p>My Name</p>
+          <p id="myName">My Name</p>
         </div>
         <div class="inline-block">
           <img src="images/Logo.png" />
         </div>
       </div>
     </header>
-    <section class="heroImg">
+    <section id="heroImg" class="heroImg" style="display: block;">
       <div class="content">
         <img src="images/hero.jpg" />
         <h1>My Name</h1>
@@ -36,7 +37,7 @@
       </div>
     </section>
     <!-- My UX Skills section coded using CSS flex -->
-    <section class="mySkills">
+    <section id="mySkills" class="mySkills" style="display: none;">
       <h1>my ux skills</h1>
       <div class="flexContainer">
         <div>
@@ -56,8 +57,21 @@
         </div>
       </div>
     </section>
+    <section id="myAbout" class="myAbout" style="display: none;">
+      <div class="aboutContainer">
+        <div>
+          <h1>My Name</h1>
+          <p>Longer description of myself, what sets me apart, what kind of designer I am etc.</p>
+          <p>Another sentence of myself</p>
+        </div>
+        <div class="aboutImage">
+          <img src="images/placeholder_2.png" />
+          <button class="resumeButton">Download Resume</button>
+        </div>
+      </div>
+    </section>
     <!-- My Work Section Constructed using CSS Grid -->
-    <section class="myWork">
+    <section id="myWork" class="myWork" style="display: none;">
       <h1>my work</h1>
       <div class="workGrid">
         <div>
@@ -89,11 +103,12 @@
     </section>
     <footer>
       <ul>
-        <li class="inline-block">About</li>
-        <li class="inline-block">Skills</li>
-        <li class="inline-block">Work</li>
-        <li class="inline-block">Contact</li>
+        <li id="about2" class="inline-block">About</li>
+        <li id="skills2" class="inline-block">Skills</li>
+        <li id="work2" class="inline-block">Work</li>
+        <li id="contact2" class="inline-block">LinkedIn</li>
       </ul>
     </footer>
   </body>
+  <script src="js/index.js"></script>
 </html>

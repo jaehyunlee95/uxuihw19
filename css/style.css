@@ -7,9 +7,17 @@
   display: block;
 }
 
+.navigation li {
+  cursor: pointer;
+}
+
 .logo {
   padding: 5px;
   text-align: center;
+}
+
+.logo p {
+  cursor: pointer;
 }
 
 nav {
@@ -80,6 +88,47 @@ li {
   padding: 19px 13px;
   border-radius: 20px;
 }
+
+footer {
+  background-color: #373738;
+  padding: auto;
+}
+
+footer ul {
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  cursor: pointer;
+}
+
+.aboutContainer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 60% 1fr;
+}
+
+.aboutImage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 25px;
+}
+
+.aboutImage img {
+  width: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.resumeButton {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 19px 13px;
+  border-radius: 20px;
+  margin: auto;
+}
+
 @media only screen and (max-width: 600px) {
   .flexContainer {
     flex-direction: column;
@@ -92,15 +141,8 @@ li {
   .workGrid {
     grid-template-columns: 1fr;
   }
-}
 
-footer {
-  background-color: #373738;
-  padding: auto;
-}
-
-footer ul {
-  display: inline-block;
-  vertical-align: top;
-  color: white;
+  .aboutContainer {
+    grid-template-columns: 1fr;
+  }
 }

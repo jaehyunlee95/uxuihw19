@@ -57,6 +57,12 @@ li {
   text-align: center;
 }
 
+.mySkills h1 {
+  width: 200px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
 .flexContainer {
   display: flex;
   text-align: center;
@@ -69,6 +75,12 @@ li {
 
 .myWork {
   text-align: center;
+}
+
+.myWork h1 {
+  width: 200px;
+  margin: auto;
+  margin-bottom: 25px;
 }
 
 .workGrid {
@@ -99,6 +111,10 @@ footer ul {
   vertical-align: top;
   color: white;
   cursor: pointer;
+}
+
+footer a {
+  color: white;
 }
 
 .aboutContainer {
@@ -145,4 +161,24 @@ footer ul {
   .aboutContainer {
     grid-template-columns: 1fr;
   }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  min-height: 80vh;
+}
+
+.scrollToTopButton {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 19px 13px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
